@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 app.use(
     cors({
-        origin: "http://localhost:3001",
+        origin: "https://preeminent-brigadeiros-99687f.netlify.app/",
     })
 );
 
