@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const connectDB = (url) => {
-  mongoose.set(`strictQuery`, true);
+  mongoose.set(`strict`, true);
 
   mongoose.connect(url)
   .then(() => console.log('MongoDB connected'))

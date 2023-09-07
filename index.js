@@ -3,7 +3,8 @@ import * as dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
-import connectDB from '../project_Ecommerce/src/config/mongos.js';
+// import connectDB from '../project_Ecommerce/src/config/mongos.js';
+import connectDB from '../project_Ecommerce/src/config/mongos.js'
 import router from '../project_Ecommerce/src/routes/index.js'
 // import crypto from 'crypto';
 
@@ -19,7 +20,7 @@ app.use(cookieParser());
 
 app.use(
     cors({
-        origin: "http://localhost:3000",
+        origin: "http://localhost:3001",
     })
 );
 
