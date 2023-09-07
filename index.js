@@ -6,8 +6,9 @@ import cors from 'cors';
 // import connectDB from '../project_Ecommerce/src/config/mongos.js';
 // import connectDB from '../project_Ecommerce/src/config/mongos.js'
 import connectDB from './src/config/mongos.js';
-import router from '../project_Ecommerce/src/routes/index.js';
+// import router from '../project_Ecommerce/src/routes/index.js';
 // import crypto from 'crypto';
+import router from './src/routes/index.js';
 
 
 dotenv.config();

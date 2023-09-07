@@ -1,7 +1,8 @@
 import express from 'express';
 import accounts from "../controllers/accounts/index.js";
 import products from '../controllers/products/index.js';
-import admin from '../controllers/admin/index.js'
+import admin from '../controllers/admin/index.js';
+
 
 
 const router = express.Router()
