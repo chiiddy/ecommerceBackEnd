@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 app.use(
     cors({
-        origin: "https://shop-everyday.onrender.com",
+        origin: "https://sunny-pasca-395ca9.netlify.app",
     })
 );
 
