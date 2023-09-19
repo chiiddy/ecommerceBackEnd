@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 app.use(
     cors({
-        origin: "https://preeminent-brigadeiros-99687f.netlify.app/",
+        origin: "https://shop-everyday.onrender.com",
     })
 );
 
